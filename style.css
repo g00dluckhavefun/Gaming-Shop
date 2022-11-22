@@ -113,9 +113,11 @@ a:hover{
 
 .device-list{
     display: flex;
-    gap: 270px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0 90px 90px;
     list-style-type: none;
+
 }
 
 .devices{
