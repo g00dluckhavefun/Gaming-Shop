@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container{
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.header{
+    background-color: rgb(94, 92, 92);
+    background-size: cover;
+}
+
+.header-logo {
+    display: flex;
+    margin: 5px;
+}
+
+.header-line{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px;
+
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+.nav-rigth{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-rigth > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-down{
+    background-image: url(image/80327882b6bb95e5_1920xH.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-block {
+    max-width: 400px;
+    height: 80vh;
+    position: absolute;
+    left: 7%;
+    top: 24%;
+    align-items: center;
+}
+
+.header-title{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+.header-down {
+    position: relative;
+}
+
+.underheader-line{
+    background-color: #fff;
+    display: flex;
+    gap: 50px;
+}
+
+.donate{
+    text-decoration: none;
+    color: black;
+    margin: 0px 680px;
+}
+
+.device{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.device-title{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.device-undertitle{
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.device-list{
+    display: flex;
+    gap: 270px;
+    margin: 0 90px 90px;
+    list-style-type: none;
+}
+
+.devices{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer-inner{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.phone{
+    text-decoration: none;
+    color: white;
+}
+
+.email-top{
+    text-align: center;
+
+}
+
+.email{
+    background-color: #fff;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+.subscribe {
+    border-radius: 4px;
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+
+
+
+
